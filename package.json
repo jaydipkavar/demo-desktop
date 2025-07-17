@@ -22,9 +22,9 @@
   "build": {
     "appId": "com.agentact.agentact-app",
     "publish": null,
-    "files": [
-      "dist/**/*",
-      "electron",
+  "files": [
+      "dist/**/*",             
+      "electron/**/*",         
       "package.json"
     ],
     "extraResources": [
@@ -41,9 +41,9 @@
     "asarUnpack": [
       "node_modules/playwright-core/**/*"
     ],
-    "directories": {
-      "buildResources": "assets"
-    },
+   "directories": {
+    "buildResources": "build"
+  },
     "win": {
       "icon": "assets/icon.ico",
       "target": [

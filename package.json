@@ -24,7 +24,7 @@
     "publish": null,
     "files": [
       "dist/**/*",
-      "main.js",
+      "electron",
       "package.json"
     ],
     "extraResources": [

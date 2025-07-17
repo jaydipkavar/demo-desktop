@@ -22,8 +22,9 @@
   "build": {
     "appId": "com.agentact.agentact-app",
     "files": [
-      "dist",
-      "electron"
+      "dist/**/*",
+      "main.js",
+      "package.json"
     ],
     "extraResources": [
       {

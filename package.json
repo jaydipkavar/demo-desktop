@@ -1,0 +1,15 @@
+"scripts": {
+  "dist": "electron-builder --mac"
+},
+"build": {
+  "appId": "com.yourapp.id",
+  "mac": {
+    "target": "dmg",
+    "identity": null
+  },
+  "files": [
+    "dist/**/*",
+    "main.js",
+    "package.json"
+  ]
+}

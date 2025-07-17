@@ -1,4 +1,5 @@
-"scripts": {
+{
+  "scripts": {
   "dist": "electron-builder --mac"
 },
 "build": {
@@ -12,4 +13,5 @@
     "main.js",
     "package.json"
   ]
+}
 }

@@ -21,6 +21,7 @@
   },
   "build": {
     "appId": "com.agentact.agentact-app",
+    "publish": null,
     "files": [
       "dist/**/*",
       "main.js",
